@@ -1,0 +1,50 @@
+.calcu {
+  margin: 100px auto;
+  height: 500px;
+  width: 360px;
+  background : linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  border-radius: 5%;
+}
+#result {
+  text-align: right;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  background-color: aliceblue;
+  height: 45px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+}
+
+.buttonemp {
+  background-color: #9bc9c5;
+}
+.buttons {
+  margin: 20px;
+}
+.button, .operator {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 15px;
+  border-color: #9bc9c5;
+  float: left;
+  cursor: pointer;
+  border-width: 0;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.button:active, .operator:active {
+  box-shadow: 5px 7px 5px #7dc0bc inset;
+  font-size: 15px;
+}
+body{
+  background: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+  /* height: 100%;
+  width: 100%; */
+  
+  
+}
